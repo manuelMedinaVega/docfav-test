@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la API de Usuarios</h1>
+    <p>Esta API permite registrar usuarios mediante una solicitud <code>POST</code> a <code>/register</code>.</p>
+    <p>Ejemplo de uso:</p>
+    <code>
+        curl -X POST http://localhost:8000/register -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john@example.com", "password": "SecurePass123!"}'
+    </code>
+</body>
+</html>
