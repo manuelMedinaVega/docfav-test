@@ -40,6 +40,8 @@ Asegúrate de tener instalado:
 1. **Clonar el repositorio**
    ```sh
    git clone https://github.com/manuelMedinaVega/docfav-test.git
+
+   ```sh
    cd docfav-test
 
 2. **Levantar los contenedores con Docker**
