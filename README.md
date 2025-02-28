@@ -41,22 +41,23 @@ Asegúrate de tener instalado:
    ```sh
    git clone https://github.com/manuelMedinaVega/docfav-test.git
 
+2. **Dirigete a la carpeta del repositorio**
    ```sh
    cd docfav-test
 
-2. **Levantar los contenedores con Docker**
+3. **Levantar los contenedores con Docker**
    ```sh
    make up
 
-3. **Instalar las dependencias**
+4. **Instalar las dependencias**
    ```sh
    make composer-install
 
-4. **Configurar la base de datos**
+5. **Configurar la base de datos**
    ```sh
    make schema-create
 
-5. **Verificar que la aplicación está corriendo**
+6. **Verificar que la aplicación está corriendo**
 
    Accede a http://localhost/, deberías ver una página de bienvenida.
 
