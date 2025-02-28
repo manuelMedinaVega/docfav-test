@@ -94,7 +94,7 @@ POST /register
 #### Respuestas posibles
 - **201 Created** → Usuario registrado correctamente.
 - **400 Bad Request** → Datos inválidos.
-- **409 Conflict** → El usuario ya existe.
+- **409 Conflict** → El usuario o el email ya existe.
 - **500 Internal Server Error** → Error inesperado.
 
 ---
@@ -108,6 +108,7 @@ POST /register
 | `make composer-install`     | Instala las dependencias con Composer |
 | `make schema-create`     | Crea es esquema de la base de datos |
 | `make test`        | Ejecuta todas las pruebas |
+| `make restart`        | Reconstruye los contenedores |
 
 ---
 
